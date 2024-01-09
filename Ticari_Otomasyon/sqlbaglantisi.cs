@@ -11,7 +11,8 @@ namespace Ticari_Otomasyon
     {
         public SqlConnection baglanti()
         {
-            SqlConnection baglan = new SqlConnection(@"Data Source=DENIZ;Initial Catalog=DboTicariOtomasyon;Integrated Security=True");
+            //SqlConnection baglan = new SqlConnection(@"Data Source=DENIZ;Initial Catalog=DboTicariOtomasyon;Integrated Security=True");
+            SqlConnection baglan = new SqlConnection(@"Data Source=DESKTOP-J3UPQAI;Initial Catalog=DboTicariOtomasyon;Integrated Security=True");
             baglan.Open();
             return baglan;
         }
